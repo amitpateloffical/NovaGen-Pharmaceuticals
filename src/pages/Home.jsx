@@ -22,7 +22,7 @@ function Home() {
           <div className=" g-5 align-items-center slider-img">
             <div className="  wow fadeIn" data-wow-delay="0.1s" data-aos="fade-right">
               <div className="">
-                <img className="img-fluid" src="https://media.istockphoto.com/id/1309776504/photo/female-research-scientist-with-bioengineer-working-on-a-personal-computer-with-screen-showing.jpg?s=612x612&w=0&k=20&c=FBI79EWdoWHailbTGvQWBBYOiOfx7owZLWuNnQxuDqo=" />
+                <img width={"600px"} className="img-fluid" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRK0eu3NxaNxKhHeLZLyoEbMX3338dbxBX5nA&usqp=CAU" />
               </div>
             </div>
             <div
@@ -33,10 +33,14 @@ function Home() {
               <div className="home-head rounded-pill  px-3 mb-3">
                 Business Area
               </div>
-              <h1 className="heading-about">Clear Strategy, Consistent Performance</h1>
-              <p className="home-para">"Driven by our passion for advancing medical science and improving patient
-                outcomes, we continuously invest in research and development to
-                bring new and groundbreaking treatments to market"</p>
+              <h1 className="heading-about">Revolutionary Pharmaceutical Solutions</h1>
+              <p className="home-para">"Welcome to the forefront of pharmaceutical innovation. We harness groundbreaking science, cutting-edge technology, and unparalleled expertise to create transformative treatments that change lives. With a commitment to excellence in research, development, and manufacturing, we're setting new standards in healthcare. Explore our diverse portfolio and discover how we're revolutionizing patient care and shaping the future of medicine.
+
+
+
+
+
+"</p>
             </div>
           </div>
         </div>
@@ -54,17 +58,13 @@ function Home() {
               <div className="home-head rounded-pill px-3 mb-3">
                 Manufacturing
               </div>
-              <h1 className="heading-about">Providing Quality Products</h1>
-              <p className="home-para">"At Mediva Pharmaceuticals , we believe that quality is the cornerstone of every
-                product we deliver. Our state-of-the-art manufacturing facilities are equipped
-                with cutting-edge technology and adhere to the highest international
-                standards to ensure the safety, purity,
-                and effectiveness of our pharmaceutical products.."</p>
+              <h1 className="heading-about">Building Trust, One Medication at a Time: A Look Inside Our Manufacturing Process</h1>
+              <p className="home-para">"Transparency and trust are at the core of our commitment to delivering quality healthcare. We invite you to explore our world-class manufacturing facilities and discover the dedication and expertise that goes into every medication we produce. We believe in the power of science to make a difference, and our commitment to responsible manufacturing practices ensures the safe and reliable delivery of hope and healing."</p>
 
             </div>
             <div className="wow fadeIn" data-wow-delay="0.1s" data-aos="fade-right">
 
-              <img className="img-fluid" src="https://media.istockphoto.com/id/1212392754/photo/scientist-works-with-petri-dishes-with-various-bacteria-tissue-and-blood-samples-concept-of.jpg?s=612x612&w=0&k=20&c=CLcKr82Sq-gA0vPIywY5XylI7bTYT1h86Z4Oc5hqwUE=" />
+              <img width={"600px"} className="img-fluid" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZerows86Muh3PUztm-gdVeYlgx4ywJZB7jQ&usqp=CAU" />
 
             </div>
           </div>
@@ -88,12 +88,8 @@ function Home() {
               <div className="home-head rounded-pill  px-3 mb-3">
                 Research & Development
               </div>
-              <h1 className="heading-about">The Innovation Edge</h1>
-              <p className="home-para">" we are committed to advancing the boundaries of medical science
-                and improving healthcare outcomes through innovative research and development.
-                Our state-of-the-art laboratories and dedicated team of scientists and researchers
-                work tirelessly to discover and develop
-                groundbreaking medicines that address unmet medical needs."</p>
+              <h1 className="heading-about"> Groundbreaking Research & Development at Novagen Pharmaceuticals</h1>
+              <p className="home-para">" At Novagen Pharmaceuticals, we are committed to pioneering research and development that drives the future of healthcare. With a relentless focus on innovation and a dedication to advancing therapeutic solutions, our world-class team of scientists, researchers, and healthcare professionals are revolutionizing the pharmaceutical landscape. From drug discovery and preclinical research to clinical trials and regulatory approval, we are dedicated to pushing the boundaries of what's possible. Join us on the journey to create groundbreaking treatments that improve and save lives."</p>
 
             </div>
           </div>
@@ -113,7 +109,7 @@ function Home() {
                 About Us
               </div>
               <h1 className="heading-about">Clear Strategy, Consistent Performance</h1>
-              <p className="home-para"> "Welcome to Mediva Pharmaceuticals, where our mission is to revolutionize healthcare through innovative,
+              <p className="home-para"> "Welcome to Novagen Pharmaceuticals, where our mission is to revolutionize healthcare through innovative,
                 life-changing medicines. As a global leader in pharmaceuticals,
                 we specialize in developing cutting-edge treatments for a wide range of medical conditions.
                 Our commitment to excellence drives us to consistently deliver safe, effective,

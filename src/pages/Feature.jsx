@@ -55,11 +55,11 @@ export default function GxpTrainig() {
           <div className="row g-5 align-items-center">
             <div className="col-lg-5 wow fadeIn" data-wow-delay="0.1s">
               <div className="abouts" data-aos="fade-right" >
-                <img className="img-fluid" src="/ebmr2.jpg" />
+                <img className="img-fluid" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2CXxloIRkOIJeWT5aFndqWZdIdVKQKp1KoA&usqp=CAU" />
               </div>
             </div>
             <div className="col-lg-7 wow fadeIn" data-wow-delay="0.5s">
-              <h4 className="mb-4 " data-aos="fade-left">At Mediva, science is embedded in our ethos, as we wholeheartedly embrace Research and Development (R&D) as an essential component of our sustainable business strategy. Over the decades, we have invested strongly and strategically in cutting-edge technological advancements and innovative research activities.</h4>
+              <h4 className="mb-4 " data-aos="fade-left">Shaping the Future of Healthcare: Novagen Pharmaceuticals' Pioneering Research & Development.</h4>
               {/* <div className="content_container"> */}
                 {/* <ul className="list-group"
                   ref={(ref) => listRefs.current.push(ref)}
@@ -97,11 +97,11 @@ export default function GxpTrainig() {
         <div className="container" style={{background:"#AFEEEE",paddingLeft:"20px", paddingTop:"30px", paddingBottom:"30px", borderLeft:"4px solid green"}}>
           <div className="row align-items-center g-5">
             <div className="col-lg-9  wow fadeIn" data-wow-delay="0.5s" style={{fontSize: "19px", fontWeight: "500"}}>
-            Our team thrives in an environment conducive to excellence and innovation, which is critical to advancing complex and challenging first-time combination products. The R&D team actively engages in projects from concept to Phase IV studies, as well as monitoring market acceptance and post-launch status for comprehensive insights.
+            At Novagen Pharmaceuticals, we believe that exceptional healthcare begins with innovative research and development. Our multidisciplinary team of scientists, engineers, and healthcare professionals is dedicated to discovering and developing breakthrough medicines that improve patient outcomes. By harnessing the latest advancements in technology and collaborating with leading experts, we are driving the future of medicine. Our commitment to scientific excellence and patient-centric innovation sets us apart, ensuring that we deliver transformative solutions that address unmet medical needs. Join us in our mission to shape the future of healthcare.
             </div>
             <div className="col-lg-3 wow fadeIn" data-wow-delay="0.1s">
             <div className="h-75 w-75 " data-aos="fade-right" >
-                <img className="img-fluid  rounded" src="/ebmr2.jpg" />
+                <img className="img-fluid  rounded" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvKB9Z-9k3Xs5sOOJaQ1_m2LEAN9k1WUzCiA&usqp=CAU" />
               </div>
             </div>
           </div>
