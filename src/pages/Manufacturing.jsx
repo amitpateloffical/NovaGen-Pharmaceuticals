@@ -6,15 +6,15 @@ const Manufacturing = () => {
             <section className="innerBanner">
                 <picture>
                     <img
+                    width="100%"
                         className="responsive-image"
-                        src="https://ajantapharma.com/assets/frontend/images/inner_banner/business_areas.jpg"
+                        src="https://www.collidu.com/media/catalog/product/img/b/a/ba0e15043a9eeab9a74324d5911b16820c78bc175259dad460a849f90f34bfff/pharmaceutical-manufacturing-slide2.png"
                         alt="Business Areas"
-                        style={{ maxWidth: '100%' }}
                     />
 
                 </picture>
 
-                <div className="container">
+                {/* <div className="container">
                     <div className="innerpageTitle">
                         <div className="row h-100">
                             <div className="col-md-6 align-self-center aos-init aos-animate" >
@@ -22,13 +22,13 @@ const Manufacturing = () => {
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> */}
             </section>
             {/* <div className='Manufacturing-head'>   
          <h1 className='manufacturing-heading'>Manufacturing</h1>
      </div> */}
 
-            <div className="container-fluid p-5 hero-header  mt-4">
+            <div className="container-fluid p-5   mt-4">
                 <div >
                     <div className=" g-5 align-items-center slider-img">
                         <div className=" " >
@@ -39,9 +39,7 @@ const Manufacturing = () => {
                         <div
 
                         >
-                            {/* <div className="home-head rounded-pill  px-3 mb-3">
-                Business Area
-              </div> */}
+                            
                             <h1 className="Manu-about">At Novagen Pharma we are passionate about every product we deliver to our customers</h1>
                             <p className="Manu-para">"Our commitment to manufacturing excellence ensures that patients and healthcare
                                 professionals can trust in the safety and efficacy of every product bearing the Novagen Pharma name.

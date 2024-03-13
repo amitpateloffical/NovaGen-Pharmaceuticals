@@ -43,9 +43,9 @@ const MySlider = () => {
     <Slider {...settings} >
       {/* First Slide */}
 
-      <img height={"500px"} src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWHoyo8i7BhD9E1BVtx_OP1CNxMQmGLwIyYg&usqp=CAU" />
-      <img height={"500px"} src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPt6eTG09qz-ZaVSuHmPwq9m-fXxxpP1qBXw&usqp=CAU" />
-      <img height={"500px"} src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8ylZ3PL5R_iQBEcZ5Sio89vHuBJRCpyTdIw&usqp=CAU" />
+      <img height={"500px"} src="https://shreejipharma.in/images/slider/bg2.jpg" />
+      <img height={"500px"} src="https://media.licdn.com/dms/image/D4D12AQHxCzoMT7lUwA/article-cover_image-shrink_720_1280/0/1695910640912?e=2147483647&v=beta&t=-nVocGKePlEMv37gGK4FCGYeBXuwZc806dFIJLr_oDk" />
+      <img height={"500px"} src="https://av.sc.com/corp-en/nr/content/images/ccib-features-pharma-working-capital-1392x630.jpg" />
 
 {/* 
       <img  height={"500px"} src="https://img.freepik.com/free-vector/pharmaceutical-medicine-healthcare-template-vector-social-media-post_53876-117769.jpg?size=626&ext=jpg&ga=GA1.1.1884802103.1674757283&semt=sph"/>

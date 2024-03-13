@@ -42,15 +42,14 @@ export default function GxpTrainig() {
       <BreadCrumb page="Feature" />
 
 
-<div className=" col-lg-12 Rd-section">
+{/* <div className=" col-lg-12 Rd-section">
   <div className="RD-img pt-2 pb-5">
     <img src="RD.png" alt="...." style={{ height: "400px", width: "100%", paddingTop: "40px"}} />
   </div>
-</div>
+</div> */}
 
 
-
-      <div className="container-fluid section2  py-5">
+      {/* <div className="container-fluid section2  py-5">
         <div className="container">
           <div className="row g-5 align-items-center">
             <div className="col-lg-5 wow fadeIn" data-wow-delay="0.1s">
@@ -59,7 +58,7 @@ export default function GxpTrainig() {
               </div>
             </div>
             <div className="col-lg-7 wow fadeIn" data-wow-delay="0.5s">
-              <h4 className="mb-4 " data-aos="fade-left">Shaping the Future of Healthcare: Novagen Pharmaceuticals' Pioneering Research & Development.</h4>
+              <h4 className="mb-4 " data-aos="fade-left">Shaping the Future of Healthcare: Novagen Pharmaceuticals' Pioneering Research & Development.</h4> */}
               {/* <div className="content_container"> */}
                 {/* <ul className="list-group"
                   ref={(ref) => listRefs.current.push(ref)}
@@ -86,12 +85,24 @@ export default function GxpTrainig() {
                   </li>
                 </ul> */}
               {/* </div> */}
-              <div className="containt-data fs-5">Our paramount proficiency resides in our adeptness at excelling in the development of differentiated generic products, bolstered by our specialized teams in formulation development, process chemistry, and analytical development. This prowess significantly contributes to the establishment of a formidable competitive advantage.</div>
+              {/* <div className="containt-data fs-5">Our paramount proficiency resides in our adeptness at excelling in the development of differentiated generic products, bolstered by our specialized teams in formulation development, process chemistry, and analytical development. This prowess significantly contributes to the establishment of a formidable competitive advantage.</div>
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
+      <section className="innerBanner">
+                <picture>
+                    <img
+                    width="100%"
+                        className="responsive-image"
+                        src="https://www.mdpi.com/BDCC/BDCC-07-00010/article_deploy/html/images/BDCC-07-00010-g001.png"
+                        alt="Business Areas"
+                    />
+                </picture>
+
+               
+            </section>
 
       <div className="container-fluid py-5">
         <div className="container" style={{background:"#AFEEEE",paddingLeft:"20px", paddingTop:"30px", paddingBottom:"30px", borderLeft:"4px solid green"}}>

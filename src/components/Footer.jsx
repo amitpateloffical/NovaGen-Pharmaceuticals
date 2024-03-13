@@ -15,7 +15,8 @@ function Footer() {
       {/* <!-- Footer Start --> */}
       <div className="container-fluid bg-dark text-white-50 footer py-3">
         <div className="footer-section pt-5">
-          <div className="row g-5">
+
+          {/* <div className="row g-5">
             <div className="col-md-6 col-lg-3 wow fadeIn " data-wow-delay="0.1s">
               <a href="index.html" className="d-inline-block mb-3">
                 <h1 className="text-white">
@@ -66,7 +67,57 @@ function Footer() {
            
            
 
-          </div>
+          </div> */}
+
+<div className="row">
+  <div className="col-md-6">
+  <h1 className="text-white">
+                Novagen <span className="text-primary"></span>Pharmaceuticals
+                </h1>
+                <p className="mb-0 style={{ fontSize: '14px' }}>">
+              "Novagen Pharmaceuticals offers cutting-edge treatments, backed by rigorous research and quality assurance, ensuring optimal patient care and outcomes."
+              </p>
+  </div>
+  <div className="col-md-2">
+  <h5 className="text-white mb-4">Follow us</h5>
+  <div className=" ">
+                <a className="btn btn-outline-light btn-social mb-1 " href="">
+                  <FontAwesomeIcon icon={faFacebookF} />
+                </a>
+                <a className="btn btn-outline-light btn-social mb-1" href="">
+                  <FontAwesomeIcon icon={faTwitter} />
+                </a>
+                <a className="btn btn-outline-light btn-social mb-1" href="">
+                  <FontAwesomeIcon icon={faInstagram} />
+                </a>
+                <a className="btn btn-outline-light btn-social mb-1" href="">
+                  <FontAwesomeIcon icon={faLinkedinIn} />
+                </a>
+              </div>
+  </div>
+  <div className="col-md-4">
+  <h5 className="text-white mb-4">Popular Link</h5>
+  <Link onClick={() => handleClick('/about')} className="btn btn-link" to="/about">
+                <FontAwesomeIcon icon={faAngleRight} />
+                About Us
+              </Link>
+            
+              
+              <Link onClick={() => handleClick('/contact')} className="btn btn-link" to="/contact" >
+                <FontAwesomeIcon icon={faAngleRight} />
+                Contact Us
+              </Link>
+              <Link onClick={() => handleClick('/manufacturing')}  className="btn btn-link" to="/manufacturing">
+                <FontAwesomeIcon icon={faAngleRight} />
+                Manufacturing
+              </Link>
+              <Link onClick={() => handleClick('/features')} className="btn btn-link" to="/features">
+                <FontAwesomeIcon icon={faAngleRight} />
+             R&d
+              </Link>
+  </div>
+</div>
+
         </div>
         <div className="container wow fadeIn" data-wow-delay="0.1s">
           <div className="copyright">

@@ -17,7 +17,7 @@ function Home() {
       <div className="slider-container ">
         <MySlider />
       </div>
-      <div className="container-fluid p-5 hero-header mb-5 mt-4">
+      <div className="container-fluid p-5  mb-5 mt-4">
         <div >
           <div className=" g-5 align-items-center slider-img">
             <div className="  wow fadeIn" data-wow-delay="0.1s" data-aos="fade-right">
@@ -34,20 +34,19 @@ function Home() {
                 Business Area
               </div>
               <h1 className="heading-about">Revolutionary Pharmaceutical Solutions</h1>
-              <p className="home-para">"Welcome to the forefront of pharmaceutical innovation. We harness groundbreaking science, cutting-edge technology, and unparalleled expertise to create transformative treatments that change lives. With a commitment to excellence in research, development, and manufacturing, we're setting new standards in healthcare. Explore our diverse portfolio and discover how we're revolutionizing patient care and shaping the future of medicine.
-
-
-
-
-
-"</p>
+              <p className="home-para">"Welcome to the forefront of pharmaceutical innovation.
+               We harness groundbreaking science, cutting-edge technology, and unparalleled expertise
+                to create transformative treatments that change lives. With a commitment to excellence
+                 in research, development, and manufacturing, we're setting new standards in healthcare.
+                  Explore our diverse portfolio and discover how we're revolutionizing patient care and 
+                  shaping the future of medicine."</p>
             </div>
           </div>
         </div>
       </div>
 
 
-      <div className="container-fluid p-5  hero-header mb-5 mt-4">
+      <div className="container-fluid p-5   mb-5 mt-4">
         <div className="">
           <div className="slider-img g-5 align-items-center">
             <div
@@ -63,16 +62,14 @@ function Home() {
 
             </div>
             <div className="wow fadeIn" data-wow-delay="0.1s" data-aos="fade-right">
-
               <img width={"600px"} className="img-fluid" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZerows86Muh3PUztm-gdVeYlgx4ywJZB7jQ&usqp=CAU" />
-
             </div>
           </div>
         </div>
       </div>
 
 
-      <div className="container-fluid p-5 hero-header mb-5 mt-4">
+      <div className="container-fluid p-5  mb-5 mt-4">
         <div >
           <div className=" g-5 align-items-center slider-img">
             <div className="  wow fadeIn" data-wow-delay="0.1s" data-aos="fade-right">
@@ -97,7 +94,7 @@ function Home() {
       </div>
 
 
-      <div className="container-fluid p-5  hero-header mb-5 mt-4">
+      <div className="container-fluid p-5   mb-5 mt-4">
         <div className="">
           <div className="slider-img g-5 align-items-center">
             <div

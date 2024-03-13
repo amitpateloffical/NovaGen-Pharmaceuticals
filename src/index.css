@@ -385,8 +385,6 @@ margin-left: 50%;
 }
 
 /*** Testimonials ***/
-.testimonial-item {
-}
 
 /*** Footer ***/
 .footer {
@@ -583,9 +581,7 @@ margin-left: 50%;
   height: 490px;
  
 }
-.section2 {
-  /* background: linear-gradient(#80ffdb, #5390d9); */
-}
+
 #contact-form-border {
   border-bottom: 2px solid;
 }
@@ -642,25 +638,44 @@ padding-left: 80px;
 
 }
 #header {
-
   width: 100%;
   border-bottom: 4px solid black;
   height: 180px;
   overflow: hidden;
-  background-image: url('https://www.ajantapharma.com/assets/frontend/images/inner_banner/manufacturing.jpg');
+  background-image: url('https://t4.ftcdn.net/jpg/06/00/38/29/360_F_600382918_rodL5pr9CGksWi6qlAMJ79OnyPnZQ02t.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-
 }
 
 #header-h1 {
   color: #252c69;
-    margin-top: 65px;
-  margin-left: 150px;
+  padding-top: 25px;
+ display: flex;
+ justify-content: center;
   font-size: 2.5rem;
   padding-bottom: 5px; 
-  background-image: linear-gradient(to right, #ffb44f 50%, transparent 50%);
+  /* background-image: linear-gradient(to right, #ffb44f 50%, transparent 50%); */
   background-size: 19% 3px; 
   background-position: 0 100%; 
   background-repeat: no-repeat; 
+}
+
+.about-h5{
+  color: #252c69;
+  display: flex;
+  justify-content: center;
+
+}
+
+.contactbgimg{
+  background-repeat: no-repeat;
+  overflow: hidden;
+  background-size: cover;
+  background-image: url("https://respectsolution.com/wp-content/uploads/2019/04/contact-us-background-image-4.jpg");
+}
+
+.contactform{
+  display: flex;
+  justify-content: end;
+  /* align-items: end; */
 }

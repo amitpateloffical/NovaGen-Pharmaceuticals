@@ -42,21 +42,11 @@ function Contact() {
             <BreadCrumb page="Contact Us" />
 
             {/* <!-- Contact Start --> */}
-            <div className="container-fluid section2  py-5">
-                <div className="container">
-                    <div className="row g-5 align-items-center d-flex">
-                        <div className="col-lg-5 wow fadeIn" data-wow-delay="0.2s">
-                            <div className="abouts" data-aos="fade-right">
-                                <img className="img-fluid" src="/phone.jpeg" />
-                            </div>
-                        </div>
-                        <div className="container-fluid py-5 col-lg-7">
-                            <div className="container py-5" data-aos="fade-left">
-                                <div className="mx-auto text-center wow fadeIn" data-wow-delay="0.1s" style={{ 'max-width': '500px' }}>
-                                    <h1 className="mb-4" data-aos="fade-left">If You Have Any Query, Please Contact Us</h1>
-                                </div>
-                                <div className="row justify-content-center">
-                                    <div className="col-lg-7">
+            <div className="container-fluid section2 contactbgimg py-5">
+           
+                            <div className="container container-fluid contactform row py-5" data-aos="fade-left"> 
+                                <div className=" col-md-5 ">
+                                <h1 className="mb-4 " data-aos="fade-left"> Contact Us</h1>
                                         <div className="wow fadeIn" data-wow-delay="0.3s">
                                             <form>
                                                 <div className="row g-3">
@@ -78,13 +68,12 @@ function Contact() {
                                                 </div>
                                             </form>
                                         </div>
-                                    </div>
+                                  
                                 </div>
                             </div>
-                        </div>
-                    </div>
+                      
                 </div>
-            </div>
+            
         </>
     );
 }

@@ -45,13 +45,14 @@ function About() {
 
   return (
     <>
-      <BreadCrumb page="About Us" />
+     
 
       {/* <!-- About Start --> */}
 
       <div className="container-fluid   py-3">
       <div id='header'>
         <h1 id='header-h1'>About us</h1>
+        <h5 className="about-h5"> Pioneering Innovations, Empowering Healthier Lives</h5>
         </div>
        
         <div className="container py-4">
@@ -75,7 +76,7 @@ function About() {
         </div>
       </div>
       
-      <div className="container-fluid section2  py-5">
+      {/* <div className="container-fluid section2  py-5">
         <div className="container">
           <div className="row g-5 align-items-center">
             <div
@@ -122,8 +123,8 @@ function About() {
             </div>
           </div>
         </div>
-      </div>
-<div></div>
+      </div> */}
+{/* <div></div>
       <div className="container-fluid py-5">
         <div className="container">
           <div className="row g-5 align-items-center">
@@ -175,10 +176,11 @@ function About() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
       {/* <!-- About End --> */}
-      <div className="container-fluid section2 py-5">
+
+      {/* <div className="container-fluid section2 py-5">
         <div className="container">
           <div className="row g-5 align-items-center">
             <div
@@ -227,13 +229,13 @@ function About() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
-      <div className="container-fluid py-5">
+      {/* <div className="container-fluid py-5">
         <div className="container">
           <div className="row g-5 align-items-center">
             <div className="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
-              {/* <div className="btn btn-sm border rounded-pill text-primary px-3 mb-3">About Us</div> */}
+              <div className="btn btn-sm border rounded-pill text-primary px-3 mb-3">About Us</div>
               <h3 className="mb-4" data-aos="fade-right">
                 To achieve these goals, we will:
               </h3>
@@ -286,9 +288,9 @@ function About() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
-      <div className="container-fluid section2 py-5">
+      {/* <div className="container-fluid section2 py-5">
         <div className="container">
           <div className="row g-5 align-items-center">
             <div
@@ -348,7 +350,7 @@ function About() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
      
     </>
