@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import './BusinessAreas.css';
 import { useEffect, useRef, } from "react";
 import AOS from "aos";
@@ -6,7 +6,7 @@ import "aos/dist/aos.css";
 
 function BusinessAreas() {
     const listRefs = useRef([]);
-
+const navigate=useNavigate()
     useEffect(() => {
         AOS.init({ duration: 1400 });
         // AOS.refresh();
@@ -38,14 +38,21 @@ function BusinessAreas() {
             observers.push(observer);
         });
     }, []);
+
+    const scrollToMiddle = () => {
+        window.scrollTo({
+            top: 200, // Scroll to 500 pixels from the top of the page
+            behavior: "smooth" // Smooth scrolling behavior
+        });
+    };
     return (
         <>
-        <div className="BusinessArea">
-                <section className="innerBanner">
+            <div className="BusinessArea">
+                {/* <section className="innerBanner">
                     <picture>
                         <img
                             className="responsive-image"
-                            src="https://images.unsplash.com/photo-1587370560942-ad2a04eabb6d?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8cGhhcm1hfGVufDB8fDB8fHww"
+                            src=""
                             alt="Business Areas"
                            width="100%"
                            height="500px"
@@ -53,15 +60,29 @@ function BusinessAreas() {
                     </picture>
 
                     <div className="container">
-                        <div className="innerpageTitle">
+                        <div className="innerpageTitle d-flex justify-end">
                             <div className="row h-100">
-                                <div className="col-md-6 align-self-center aos-init aos-animate" >
+                                <div className="  aos-init aos-animate" >
                                     <h1 data-aos="fade-right">Business Areas</h1>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </section>
+                </section> */}
+
+                <div className='businessbgimg'>
+                    <div className='row '>
+                        <div className='col-md-6'></div>
+                        <div className='col-md-6 pt-5 '>
+                            <h2 className='text-center px-2'>Exploring Our Pharma Expertise</h2>
+                            <h5 className='text-center py-5 px-3'>Delve into our multifaceted pharmaceutical endeavors, encompassing research, development, and distribution. Committed to pioneering innovations, we strive to enhance global healthcare and improve patient outcomes.</h5>
+                            <div className='business-btn' >
+                                <button onClick={()=>navigate("/")} className=' btn btn-info'>Home</button>
+                                <button onClick={scrollToMiddle} className=' btn btn-info'>View More..</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
                 <div className='businesspage'>
                     <div className="row">
@@ -78,18 +99,19 @@ function BusinessAreas() {
                                 </div>
                             </div>
                         </div> */}
-                      
-                            <div className="container">
-                                <div className="heading-business m-4" data-aos="fade-left">
-                                    We provide comprehensive range of specialty branded generic products targeting broad spectrum of chronic and acute therapies. We clearly understand our customers’ needs and use cutting-edge technology to present innovative solutions.
-                                </div>
+
+                        <div className="container">
+                            <h3 className='p-4'>Driving Healthcare Excellence: Our Comprehensive Business Offerings</h3>
+                            <div className="heading-business m-4" data-aos="fade-left">
+                                We provide comprehensive range of specialty branded generic products targeting broad spectrum of chronic and acute therapies. We clearly understand our customers’ needs and use cutting-edge technology to present innovative solutions.
                             </div>
-                            <div className="paratwo p-5 mb-4">
-                                <div className="overview-part2 p-1" data-aos="fade-left">
-                                    We carefully identify gaps in our markets and commit ourselves to get the products to market places ahead of the competition giving huge competitive advantage of 1st to market. Our products have the hallmark of technology-based differentiation and cover the full range of dosage forms, including tablets, capsules, injectables, inhalers, ointments, creams and liquids.
-                                </div>
+                        </div>
+                        <div className="paratwo p-5 mb-4">
+                            <div className="overview-part2 p-1" data-aos="fade-left">
+                                We carefully identify gaps in our markets and commit ourselves to get the products to market places ahead of the competition giving huge competitive advantage of 1st to market. Our products have the hallmark of technology-based differentiation and cover the full range of dosage forms, including tablets, capsules, injectables, inhalers, ointments, creams and liquids.
                             </div>
-                    
+                        </div>
+
                     </div>
                 </div>
             </div>

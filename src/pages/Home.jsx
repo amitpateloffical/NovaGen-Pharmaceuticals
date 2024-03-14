@@ -6,6 +6,7 @@ import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Footer from "../components/Footer";
+import { useNavigate } from "react-router-dom";
 function Home() {
 
   useEffect(() => {
@@ -17,7 +18,45 @@ function Home() {
       <div className="slider-container ">
         <MySlider />
       </div>
-      <div className="container-fluid p-5  mb-5 mt-4">
+<div className=" p-5 row gap-4">
+      <div class="card home-card " >
+  <img src="https://img.freepik.com/free-photo/medical-banner-with-doctor-wearing-goggles_23-2149611193.jpg?size=626&ext=jpg&ga=GA1.1.1395880969.1709856000&semt=sph" class="card-img-top" alt="..."/>
+  <div class="card-body">
+    <h5 class="card-title">Business Area</h5>
+    <p class="card-text">Exploring diverse business avenues, our pharmaceutical enterprise encompasses research, development, and distribution. From innovative drug formulations to comprehensive healthcare services, we strive to meet global medical needs. Committed to excellence, we deliver quality products and solutions, driving positive change and fostering healthier communities worldwide.</p>
+    <a  href="/businessareas" class="btn btn-secondary">Read more..</a>
+  </div>
+</div>
+
+<div class="card home-card " >
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT56GYJxJWFT0b2bOobm3KaYCgaHEJDfvxVjg&usqp=CAU" class="card-img-top" alt="..."/>
+  <div class="card-body">
+    <h5 class="card-title">Research And Development</h5>
+    <p class="card-text">Pushing boundaries in pharmaceutical innovation, our Research and Development division is dedicated to pioneering breakthrough treatments. With cutting-edge technology and a relentless pursuit of excellence, we explore novel compounds and therapeutic solutions. Committed to advancing medical science, we strive to bring transformative therapies from concept to reality for improved patient care</p>
+    <a href="/features" class="btn btn-secondary">Read more..</a>
+  </div>
+</div>
+
+<div class="card home-card " >
+  <img src="https://media.istockphoto.com/id/598676126/photo/pharmaceutics-pharmaceutical-worker-operates-tablet-blister-packaging-machine.jpg?s=612x612&w=0&k=20&c=On-FBhA7IV79Cu8GTW9gFpdjpF0XnHMDu5s0V732dLU=" class="card-img-top" alt="..."/>
+  <div class="card-body">
+    <h5 class="card-title">Manufacturing</h5>
+    <p class="card-text">Operating at the forefront of pharmaceutical manufacturing, we uphold the highest standards of quality and safety. Our state-of-the-art facilities and stringent processes ensure the production of reliable and effective medications. Committed to innovation and excellence, we strive to meet global demand while prioritizing patient well-being and regulatory compliance</p>
+    <a href="/manufacturing" class="btn btn-secondary ">Read more..</a>
+  </div>
+</div>
+
+<div class="card home-card " >
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9ODZv89IgC_Alz1vlE3xae3MMqCOBmlif0A&usqp=CAU" class="card-img-top" alt="..."/>
+  <div class="card-body">
+    <h5 class="card-title">About Us</h5>
+    <p class="card-text">At the heart of our pharmaceutical journey lies a commitment to excellence and compassion. With a rich legacy of innovation, [Pharmaceutical Company Name] is dedicated to advancing global healthcare. We prioritize integrity, quality, and patient well-being, striving to make a meaningful impact on lives and shaping a healthier tomorrow for all.</p>
+    <a href="/about" class="btn btn-secondary">Read more..</a>
+  </div>
+</div>
+</div>
+
+      {/* <div className="container-fluid p-5  mb-5 mt-4">
         <div >
           <div className=" g-5 align-items-center slider-img">
             <div className="  wow fadeIn" data-wow-delay="0.1s" data-aos="fade-right">
@@ -43,10 +82,10 @@ function Home() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
 
-      <div className="container-fluid p-5   mb-5 mt-4">
+      {/* <div className="container-fluid p-5   mb-5 mt-4">
         <div className="">
           <div className="slider-img g-5 align-items-center">
             <div
@@ -66,10 +105,10 @@ function Home() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
 
-      <div className="container-fluid p-5  mb-5 mt-4">
+      {/* <div className="container-fluid p-5  mb-5 mt-4">
         <div >
           <div className=" g-5 align-items-center slider-img">
             <div className="  wow fadeIn" data-wow-delay="0.1s" data-aos="fade-right">
@@ -91,10 +130,10 @@ function Home() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
 
-      <div className="container-fluid p-5   mb-5 mt-4">
+      {/* <div className="container-fluid p-5   mb-5 mt-4">
         <div className="">
           <div className="slider-img g-5 align-items-center">
             <div
@@ -123,7 +162,7 @@ function Home() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
 
 

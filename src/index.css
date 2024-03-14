@@ -218,7 +218,7 @@ margin-left: 50%;
 }
 
 .service-item:hover {
-  background: var(--themeColor);
+  color: rgb(189, 109, 109);
 }
 
 .service-item .service-icon {
@@ -242,7 +242,7 @@ margin-left: 50%;
 
 .service-item:hover h5,
 .service-item:hover p {
-  color: #ffffff;
+  color: #383030;
 }
 
 .service-item a.btn {
@@ -674,8 +674,21 @@ padding-left: 80px;
   background-image: url("https://respectsolution.com/wp-content/uploads/2019/04/contact-us-background-image-4.jpg");
 }
 
+.researchbgimg{
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 350px;
+  overflow: hidden;
+  background-size: cover;
+  background-image: url("https://innixlifesciences.com/images/bann.jpg");
+}
+
 .contactform{
   display: flex;
   justify-content: end;
   /* align-items: end; */
+}
+
+.home-card{
+  max-width: 300px;
 }
