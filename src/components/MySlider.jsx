@@ -46,8 +46,8 @@ const MySlider = () => {
       <img height={"500px"} src="https://shreejipharma.in/images/slider/bg2.jpg" />
       <img height={"500px"} src="https://media.licdn.com/dms/image/D4D12AQHxCzoMT7lUwA/article-cover_image-shrink_720_1280/0/1695910640912?e=2147483647&v=beta&t=-nVocGKePlEMv37gGK4FCGYeBXuwZc806dFIJLr_oDk" />
       <img height={"500px"} src="https://av.sc.com/corp-en/nr/content/images/ccib-features-pharma-working-capital-1392x630.jpg" />
-
-{/* 
+      <img height={"500px"} src="https://pharmaphorum.com/wp-content/uploads/2021/04/Global-impact-How-regulatory-affairs-is-shaping-development-of-cutting-edge-pharma-innovation.jpg" />
+      {/* 
       <img  height={"500px"} src="https://img.freepik.com/free-vector/pharmaceutical-medicine-healthcare-template-vector-social-media-post_53876-117769.jpg?size=626&ext=jpg&ga=GA1.1.1884802103.1674757283&semt=sph"/>
       <img height={"500px"} src="https://img.freepik.com/free-photo/various-pills-hand_23-2147983107.jpg?size=626&ext=jpg&ga=GA1.1.1884802103.1674757283&semt=sph" />
      <img height={"500px"} src="https://img.freepik.com/free-vector/healthcare-background-with-medical-symbols-hexagonal-frame_1017-26363.jpg?size=626&ext=jpg&ga=GA1.2.1884802103.1674757283&semt=sph" /> */}
@@ -78,8 +78,8 @@ const MySlider = () => {
           </div>
         </div>
       </div> */}
-    
-      
+
+
     </Slider>
   );
 };

@@ -3,7 +3,6 @@ import './BusinessAreas.css';
 import { useEffect, useRef, } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import Footer from '../../components/Footer';
 
 function BusinessAreas() {
     const listRefs = useRef([]);
@@ -41,16 +40,16 @@ function BusinessAreas() {
     }, []);
     return (
         <>
-            <div className="BusinessArea">
+        <div className="BusinessArea">
                 <section className="innerBanner">
                     <picture>
                         <img
                             className="responsive-image"
-                            src="https://ajantapharma.com/assets/frontend/images/inner_banner/business_areas.jpg"
+                            src="https://images.unsplash.com/photo-1587370560942-ad2a04eabb6d?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8cGhhcm1hfGVufDB8fDB8fHww"
                             alt="Business Areas"
-                            style={{ maxWidth: '100%' }}
+                           width="100%"
+                           height="500px"
                         />
-
                     </picture>
 
                     <div className="container">
@@ -66,7 +65,7 @@ function BusinessAreas() {
 
                 <div className='businesspage'>
                     <div className="row">
-                        <div className="col-md-3">
+                        {/* <div className="col-md-3">
                             <div className="container mt-5">
                                 <div className="card p-4 bg-light">
                                     <div className='d-flex flex-column align-items-start'>
@@ -78,8 +77,8 @@ function BusinessAreas() {
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div className="col-md-9">
+                        </div> */}
+                      
                             <div className="container">
                                 <div className="heading-business m-4" data-aos="fade-left">
                                     We provide comprehensive range of specialty branded generic products targeting broad spectrum of chronic and acute therapies. We clearly understand our customers’ needs and use cutting-edge technology to present innovative solutions.
@@ -90,7 +89,7 @@ function BusinessAreas() {
                                     We carefully identify gaps in our markets and commit ourselves to get the products to market places ahead of the competition giving huge competitive advantage of 1st to market. Our products have the hallmark of technology-based differentiation and cover the full range of dosage forms, including tablets, capsules, injectables, inhalers, ointments, creams and liquids.
                                 </div>
                             </div>
-                        </div>
+                    
                     </div>
                 </div>
             </div>
