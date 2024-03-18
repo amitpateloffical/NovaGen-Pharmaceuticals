@@ -78,25 +78,10 @@ function Footer() {
               "Novagen Pharmaceuticals offers cutting-edge treatments, backed by rigorous research and quality assurance, ensuring optimal patient care and outcomes."
               </p>
   </div>
+
   <div className="col-md-2">
-  <h5 className="text-white mb-4">Follow us</h5>
-  <div className=" ">
-                <a className="btn btn-outline-light btn-social mb-1 " href="">
-                  <FontAwesomeIcon icon={faFacebookF} />
-                </a>
-                <a className="btn btn-outline-light btn-social mb-1" href="">
-                  <FontAwesomeIcon icon={faTwitter} />
-                </a>
-                <a className="btn btn-outline-light btn-social mb-1" href="">
-                  <FontAwesomeIcon icon={faInstagram} />
-                </a>
-                <a className="btn btn-outline-light btn-social mb-1" href="">
-                  <FontAwesomeIcon icon={faLinkedinIn} />
-                </a>
-              </div>
-  </div>
-  <div className="col-md-4">
-  <h5 className="text-white mb-4">Popular Link</h5>
+ 
+               <h5 className="text-white mb-4">Popular Link</h5>
   <Link onClick={() => handleClick('/about')} className="btn btn-link" to="/about">
                 <FontAwesomeIcon icon={faAngleRight} />
                 About Us
@@ -115,6 +100,26 @@ function Footer() {
                 <FontAwesomeIcon icon={faAngleRight} />
              R&d
               </Link>
+  </div>
+
+  <div className="col-md-4">
+  <h5 className="text-white mb-4">Follow us</h5>
+  <div className="d-flex ">
+                <a className="btn btn-outline-light btn-social mb-1 " href="">
+                  <FontAwesomeIcon icon={faFacebookF} />
+                </a>
+                <a className="btn btn-outline-light btn-social mb-1" href="">
+                  <FontAwesomeIcon icon={faTwitter} />
+                </a>
+                <a className="btn btn-outline-light btn-social mb-1" href="">
+                  <FontAwesomeIcon icon={faInstagram} />
+                </a>
+                <a className="btn btn-outline-light btn-social mb-1" href="">
+                  <FontAwesomeIcon icon={faLinkedinIn} />
+                </a>
+              </div>
+              <div>Address:24 Kivukoni Rd, Dar es Salaam, Tanzania </div>
+              <a href="">info@NovagenPharmaceuticals.in</a>
   </div>
 </div>
 

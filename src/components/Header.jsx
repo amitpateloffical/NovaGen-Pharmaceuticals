@@ -33,19 +33,19 @@ function Header() {
               <Link to="/">Home</Link>
             </li>
             <li>
-              <Link to="/businessareas">Business Area</Link>
+              <Link to="/businessareas">Segment</Link>
             </li>
             <li>
-              <Link to="/manufacturing">Manufacturing</Link>
+              <Link to="/manufacturing">Mass Production</Link>
             </li>
             <li>
-              <Link to="/features">R & D</Link>
+              <Link to="/features">Technology Development</Link>
             </li>
             <li>
               <Link to="/about">About Us</Link>
             </li>
             <li>
-              <Link to="/contact">Contact Us</Link>
+              <Link to="/contact">Contact Point</Link>
             </li>
           </ul>
         </nav>
